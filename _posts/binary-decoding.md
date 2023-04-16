@@ -27,6 +27,41 @@ A 2-to-4 binary decoder takes 2 inputs and spits out 4 outputs.
 | 10    | 0100   |
 | 11    | 1000   |
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">Input</th>
+    <th class="tg-0pky">Output</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">00</td>
+    <td class="tg-0pky">0001</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">01</td>
+    <td class="tg-0pky">0010</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">10</td>
+    <td class="tg-0pky">0100</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">11</td>
+    <td class="tg-0pky">1000</td>
+  </tr>
+</tbody>
+</table>
+
 
 Looking at this table, I hope it is clear to you how we are able to communicate the same signals with fewer bits using a decoder. This may seem like a small gain, but there are other decoders that show a more significant ratio. Most commonly used binary decoders are the 2-to-4 decoder, 3-to-8 decoder and 4-to-16 decoder.
 
