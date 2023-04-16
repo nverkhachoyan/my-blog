@@ -20,17 +20,12 @@ The microprocessor is a complex system under the hood, and its components requir
 
 A 2-to-4 binary decoder takes 2 inputs and spits out 4 outputs.
 
-+-------+--------+
-| Input | Output |
-+-------+--------+
-| 00    | 0001   |
-+-------+--------+
-| 01    | 0010   |
-+-------+--------+
-| 10    | 0100   |
-+-------+--------+
+| Input | Output |<br>
+|-------|--------|<br>
+| 00    | 0001   |<br>
+| 01    | 0010   |<br>
+| 10    | 0100   |<br>
 | 11    | 1000   |
-+-------+--------+
 
 
 Looking at this table, I hope it is clear to you how we are able to communicate the same signals with fewer bits using a decoder. This may seem like a small gain, but there are other decoders that show a more significant ratio. Most commonly used binary decoders are the 2-to-4 decoder, 3-to-8 decoder and 4-to-16 decoder.
