@@ -19,18 +19,12 @@ Binary decoders are electrical circuits that transform binary inputs into output
 The microprocessor is a complex system under the hood, and its components require a wide range of electrical circuits to fire in order to execute instructions correctly. Humans have come up with a solution to encode the instructions into smaller values. Let's say you have 4 circuits that you want to fire independently at any given time, and you don't want to have to input 4 bits of information every time you execute the given instruction. What you can do is encode the information into 2 bit values and use a decoder to send the appropriate signals. Look at the truth table below for the 2-to-4 binary decoder. 
 
 A 2-to-4 binary decoder takes 2 inputs and spits out 4 outputs.
-
-| Input | Output |<br>
-|-------|--------|<br>
-| 00    | 0001   |<br>
-| 01    | 0010   |<br>
-| 10    | 0100   |<br>
-| 11    | 1000   |
-
+![Alt text](/assets/blog/binary-decoding/2-to-4-truth-table.png?raw=true "Title")
 
 Looking at this table, I hope it is clear to you how we are able to communicate the same signals with fewer bits using a decoder. This may seem like a small gain, but there are other decoders that show a more significant ratio. Most commonly used binary decoders are the 2-to-4 decoder, 3-to-8 decoder and 4-to-16 decoder.
 
-Here is a 2-to-4 binary decoder created using a logic gate simulator.
+
+<p style="text-align: center;">Here is a 2-to-4 binary decoder created using a logic gate simulator.</p>
 
 ![Alt text](/assets/blog/binary-decoding/24bd-00.png?raw=true "Title")
 
