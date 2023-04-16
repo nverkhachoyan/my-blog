@@ -24,29 +24,23 @@ The microprocessor is a complex system under the hood, and its components requir
 A 2-to-4 binary decoder takes 2 inputs and spits out 4 outputs.
 ![Alt text](/assets/blog/binary-decoding/2-to-4-truth-table.png?raw=true "Title")
 
-Looking at this table, I hope it is clear to you how we are able to communicate the same signals with fewer bits using a decoder. This may seem like a small gain, but there are other decoders that show a more significant ratio. Most commonly used binary decoders are the 2-to-4 decoder, 3-to-8 decoder and 4-to-16 decoder.
+By using logic gates, we are able to create an electrical circuit that will turn our 2 bit inputs into 4 bit outputs. We are able to communicate the same signals with fewer bits using a decoder, and that may seem like a small gain, however, there are other decoders that show a more significant ratio. Most commonly used binary decoders are the 2-to-4 decoder, 3-to-8 decoder and 4-to-16 decoder. I have used an online logic gate simulator to create a simple binary decoder to illustrate how it works.
 
-Below is a 2-to-4 binary decoder created using a logic gate simulator. >
+### Below is a 2-to-4 binary decoder created using a logic gate simulator.
 
->In this example, you can see that the input is 00, therefore, we have an output of 0001. (The )
- 
+>In this example, you can see that the input is 00, therefore, we have an output of 0001. 
+>*The least significant bit starts from top to bottom in the graph.*
 ![Alt text](/assets/blog/binary-decoding/24bd-00.png?raw=true "Title")
-<img src="/assets/blog/binary-decoding/24bd-00.png"  width="400" >
-
 
 >In the second example, we have the input 01 and the output 0010.
-
 ![Alt text](/assets/blog/binary-decoding/24bd-01.png?raw=true "Title")
-<img src="/assets/blog/binary-decoding/24bd-01.png"  width="400" >
 
 >In the third example, our input is 10 and the output is 0100.
-
 ![Alt text](/assets/blog/binary-decoding/24bd-10.png?raw=true "Title")
-<img src="/assets/blog/binary-decoding/24bd-10.png"  width="400" >
 
->Finally, in the fourth example, the input is 1 and the output is 1000.
-
+>Finally, in the fourth example, the input is 11 and the output is 1000.
 ![Alt text](/assets/blog/binary-decoding/24bd-11.png?raw=true "Title")
-<img src="/assets/blog/binary-decoding/24bd-11.png"  width="400" >
 
+In the same way, we are able to use more complex decoders to transmit complicated instructions with fewer bits. We defined binary decoders and why they are useful in this article. We also examined a 2-to-4 binary decoder example with logic gates, and illustrated the logic behind it. In digital systems, binary decoders are essential, and as technology develops, their importance will only increase.
 
+ 
