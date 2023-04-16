@@ -25,9 +25,10 @@ Looking at this table, I hope it is clear to you how we are able to communicate 
 
 
 <p style="text-align: center;">Here is a 2-to-4 binary decoder created using a logic gate simulator.</p>
+<br>
 
 ![Alt text](/assets/blog/binary-decoding/24bd-00.png?raw=true "Title")
-
+<img src="/assets/blog/binary-decoding/24bd-00.png"  width="400" >
 1. path for transmitting electric current
 
 
