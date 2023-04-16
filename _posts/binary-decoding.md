@@ -32,7 +32,7 @@ Looking at this table, I hope it is clear to you how we are able to communicate 
 
 Here is a 2-to-4 binary decoder created using a logic gate simulator.
 
-![Alt text](/assets/blog/binary-decoding/cover.png?raw=true "Title")
+![Alt text](/assets/blog/binary-decoding/24bd-00.png?raw=true "Title")
 
 1. path for transmitting electric current
 
