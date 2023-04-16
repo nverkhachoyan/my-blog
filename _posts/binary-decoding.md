@@ -1,13 +1,13 @@
 ---
 title: 'What is Binary Decoding'
 excerpt: 'Binary decoders are electrical circuits that transform binary inputs into output signals that may be utilized to activate a particular output line. They are a necessary component of digital systems and are utilized in a variety of applications such as memory address decoding, data demultiplexing, and control logic.'
-coverImage: '/assets/blog/binary-decoding/cover.png'
+coverImage: '/assets/blog/binary-decoding/cover.jpg'
 date: '2023-04-16T03:40:07.322Z'
 author:
   name: Nver Khachoyan
   picture: '/assets/blog/authors/nk.jpeg'
 ogImage:
-  url: '/assets/blog/binary-decoding/cover.png'
+  url: '/assets/blog/binary-decoding/cover.jpg'
 ---
 
 ## Quick Definition
