@@ -22,9 +22,9 @@ The microprocessor is a complex system under the hood, and its components requir
 >  path for transmitting electric current
 
 A 2-to-4 binary decoder takes 2 inputs and spits out 4 outputs.
-![Alt text](/assets/blog/binary-decoding/2-to-4-truth-table.png?raw=true "Title")
+![Truth Table for 2-to-4 Binary Decoder](/assets/blog/binary-decoding/2-to-4-truth-table.png?raw=true "Truth Table for 2-to-4 Binary Decoder")
 
-By using logic gates, we are able to create an electrical circuit that will turn our 2 bit inputs into 4 bit outputs. We are able to communicate the same signals with fewer bits using a decoder, and that may seem like a small gain, however, there are other decoders that show a more significant ratio. Most commonly used binary decoders are the 2-to-4 decoder, 3-to-8 decoder and 4-to-16 decoder. I have used an online logic gate simulator to create a simple binary decoder to illustrate how it works.
+By using this truth table and logic gates, we are able to create an electrical circuit that will turn our 2 bit inputs into 4 bit outputs. We are able to communicate the same signals with fewer bits using a decoder, and that may seem like a small gain, however, there are other decoders that show a more significant ratio. Most commonly used binary decoders are the 2-to-4 decoder, 3-to-8 decoder and 4-to-16 decoder. I have used an online logic gate simulator to create a simple binary decoder to illustrate how it works.
 
 ### Below is a 2-to-4 binary decoder created using a logic gate simulator.
 
