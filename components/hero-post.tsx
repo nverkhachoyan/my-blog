@@ -24,7 +24,7 @@ const HeroPost = ({
   return (
     <section className=''>
       <div className='text-lg leading-relaxed mb-4 md:grid md:grid-cols-1 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-16'>
-        This is where I post about things that interest me :)
+        This is where I post about things that interest me :
       </div>
       {/* <div className="mb-8 md:mb-16 flex justify-center">
         <CoverImage title={title} src={coverImage} slug={slug} />
