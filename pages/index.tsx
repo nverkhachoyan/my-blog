@@ -7,6 +7,7 @@ import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
 import Post from '../interfaces/post'
+import Link from 'next/link'
 
 type Props = {
   allPosts: Post[]
@@ -14,13 +15,21 @@ type Props = {
 
 export default function Index({ allPosts }: Props) {
   const heroPost = allPosts[0]
-  const morePosts = allPosts.slice(1)
+  const morePosts = allPosts.slice(0)
   return (
     <>
       <Layout>
-        <Head>
-          <title>Nver Khachoyan's Blog</title>
+
+
+
+        <Head >
+          <Link href="blog.nverk.me">
+            <title>Nver Khachoyan's Blog</title>
+          </Link>
+
         </Head>
+
+
         <Container>
           <Intro />
           {heroPost && (
@@ -33,8 +42,14 @@ export default function Index({ allPosts }: Props) {
               excerpt={heroPost.excerpt}
             />
           )}
+
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+
+
+
+
         </Container>
+
       </Layout>
     </>
   )

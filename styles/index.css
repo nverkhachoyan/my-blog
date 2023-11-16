@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+    display: block;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.blog-post {
+    display: block;
+
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
