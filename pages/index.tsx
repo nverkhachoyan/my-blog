@@ -7,7 +7,6 @@ import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
 import Post from '../interfaces/post'
-import Link from 'next/link'
 
 type Props = {
   allPosts: Post[]
@@ -19,17 +18,9 @@ export default function Index({ allPosts }: Props) {
   return (
     <>
       <Layout>
-
-
-
-        <Head >
-
-          <title>Nver Khachoyan's Blog</title>
-
-
+        <Head>
+          <title>{`Next.js Blog Example with ${CMS_NAME}`}</title>
         </Head>
-
-
         <Container>
           <Intro />
           {heroPost && (
@@ -42,14 +33,8 @@ export default function Index({ allPosts }: Props) {
               excerpt={heroPost.excerpt}
             />
           )}
-
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-
-
-
-
         </Container>
-
       </Layout>
     </>
   )
